@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+.container {
+    width: 100%;
+    background-color: antiquewhite;
+    border: black 1PX SOLID;
+    border-radius: 5px;
+}
+
+header {
+    text-align: center;
+}
+
+header>h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 6em;
+    margin: 3%;
+}
+
+header>h2 {
+    font-family: 'Lobster';
+    font-size: 3em;
+    font-weight: 100;
+}
+
+.details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    border: .05px solid;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.details h3 {
+    font-size: 1.5em;
+    font-weight: bolder;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    text-align: left;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+main>article {
+    width: 50%;
+    padding: 2em;
+    text-align: justify;
+}
+
+main>section {
+    columns: 2;
+    column-gap: 2em;
+}
+
+main>:first-child {
+    margin-top: 0;
+}
+
+figure {
+    margin: 0;
+}
+
+.articaldetail {
+    columns: 2;
+    column-gap: 2em;
+    padding: 1em 0;
+}
+
+figure>img {
+    width: 100%
+}
+
+figcaption {
+    padding: 1em 0;
+    font-size: 0.8em;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
+
+.breaking {
+    width: 100vw
+}
+
+:root {
+    font-size: 1vw;
+}
